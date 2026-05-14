@@ -1,0 +1,507 @@
+
+
+org.tron.trident.proto
+
+## Class Response.SmartContractDataWrapper
+
+* java.lang.Object
+* + com.google.protobuf.AbstractMessageLite
+  + - com.google.protobuf.AbstractMessage
+    - * com.google.protobuf.GeneratedMessageV3
+      * + org.tron.trident.proto.Response.SmartContractDataWrapper
+
+* All Implemented Interfaces:
+  :   com.google.protobuf.Message, com.google.protobuf.MessageLite, com.google.protobuf.MessageLiteOrBuilder, com.google.protobuf.MessageOrBuilder, java.io.Serializable, [Response.SmartContractDataWrapperOrBuilder](../../../../org/tron/trident/proto/Response.SmartContractDataWrapperOrBuilder.html "interface in org.tron.trident.proto")
+
+  Enclosing class:
+  :   [Response](../../../../org/tron/trident/proto/Response.html "class in org.tron.trident.proto")
+
+  ---
+
+    
+
+  ```
+  public static final class Response.SmartContractDataWrapper
+  extends com.google.protobuf.GeneratedMessageV3
+  implements Response.SmartContractDataWrapperOrBuilder
+  ```
+
+  Protobuf type `protocol.SmartContractDataWrapper`
+
+  See Also:
+  :   [Serialized Form](../../../../serialized-form.html#org.tron.trident.proto.Response.SmartContractDataWrapper)
+
+* + ### Nested Class Summary
+
+    Nested Classes
+
+    | Modifier and Type | Class and Description |
+    | `static class` | `Response.SmartContractDataWrapper.Builder` Protobuf type `protocol.SmartContractDataWrapper` |
+
+    - ### Nested classes/interfaces inherited from class com.google.protobuf.GeneratedMessageV3
+
+      `com.google.protobuf.GeneratedMessageV3.BuilderParent, com.google.protobuf.GeneratedMessageV3.ExtendableBuilder<MessageT extends com.google.protobuf.GeneratedMessageV3.ExtendableMessage<MessageT>,BuilderT extends com.google.protobuf.GeneratedMessageV3.ExtendableBuilder<MessageT,BuilderT>>, com.google.protobuf.GeneratedMessageV3.ExtendableMessage<MessageT extends com.google.protobuf.GeneratedMessageV3.ExtendableMessage<MessageT>>, com.google.protobuf.GeneratedMessageV3.ExtendableMessageOrBuilder<MessageT extends com.google.protobuf.GeneratedMessageV3.ExtendableMessage<MessageT>>, com.google.protobuf.GeneratedMessageV3.FieldAccessorTable, com.google.protobuf.GeneratedMessageV3.UnusedPrivateParameter`
+    - ### Nested classes/interfaces inherited from class com.google.protobuf.AbstractMessageLite
+
+      `com.google.protobuf.AbstractMessageLite.InternalOneOfEnum`
+  + ### Field Summary
+
+    Fields
+
+    | Modifier and Type | Field and Description |
+    | `static int` | `CONTRACT_STATE_FIELD_NUMBER` |
+    | `static int` | `RUNTIME_CODE_FIELD_NUMBER` |
+    | `static int` | `SMART_CONTRACT_FIELD_NUMBER` |
+
+    - ### Fields inherited from class com.google.protobuf.GeneratedMessageV3
+
+      `alwaysUseFieldBuilders, unknownFields`
+    - ### Fields inherited from class com.google.protobuf.AbstractMessage
+
+      `memoizedSize`
+    - ### Fields inherited from class com.google.protobuf.AbstractMessageLite
+
+      `memoizedHashCode`
+  + ### Method Summary
+
+    All Methods [Static Methods](javascript:show(1);) [Instance Methods](javascript:show(2);) [Concrete Methods](javascript:show(8);)
+
+    | Modifier and Type | Method and Description |
+    | `boolean` | `equals(java.lang.Object obj)` |
+    | `Contract.ContractState` | `getContractState()` `.protocol.ContractState contract_state = 3;` |
+    | `Contract.ContractStateOrBuilder` | `getContractStateOrBuilder()` `.protocol.ContractState contract_state = 3;` |
+    | `static Response.SmartContractDataWrapper` | `getDefaultInstance()` |
+    | `Response.SmartContractDataWrapper` | `getDefaultInstanceForType()` |
+    | `static com.google.protobuf.Descriptors.Descriptor` | `getDescriptor()` |
+    | `com.google.protobuf.Parser<Response.SmartContractDataWrapper>` | `getParserForType()` |
+    | `com.google.protobuf.ByteString` | `getRuntimeCode()` `bytes runtime_code = 2;` |
+    | `int` | `getSerializedSize()` |
+    | `Common.SmartContract` | `getSmartContract()` `.protocol.SmartContract smart_contract = 1;` |
+    | `Common.SmartContractOrBuilder` | `getSmartContractOrBuilder()` `.protocol.SmartContract smart_contract = 1;` |
+    | `boolean` | `hasContractState()` `.protocol.ContractState contract_state = 3;` |
+    | `int` | `hashCode()` |
+    | `boolean` | `hasSmartContract()` `.protocol.SmartContract smart_contract = 1;` |
+    | `protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable` | `internalGetFieldAccessorTable()` |
+    | `boolean` | `isInitialized()` |
+    | `static Response.SmartContractDataWrapper.Builder` | `newBuilder()` |
+    | `static Response.SmartContractDataWrapper.Builder` | `newBuilder(Response.SmartContractDataWrapper prototype)` |
+    | `Response.SmartContractDataWrapper.Builder` | `newBuilderForType()` |
+    | `protected Response.SmartContractDataWrapper.Builder` | `newBuilderForType(com.google.protobuf.GeneratedMessageV3.BuilderParent parent)` |
+    | `protected java.lang.Object` | `newInstance(com.google.protobuf.GeneratedMessageV3.UnusedPrivateParameter unused)` |
+    | `static Response.SmartContractDataWrapper` | `parseDelimitedFrom(java.io.InputStream input)` |
+    | `static Response.SmartContractDataWrapper` | `parseDelimitedFrom(java.io.InputStream input, com.google.protobuf.ExtensionRegistryLite extensionRegistry)` |
+    | `static Response.SmartContractDataWrapper` | `parseFrom(byte[] data)` |
+    | `static Response.SmartContractDataWrapper` | `parseFrom(byte[] data, com.google.protobuf.ExtensionRegistryLite extensionRegistry)` |
+    | `static Response.SmartContractDataWrapper` | `parseFrom(java.nio.ByteBuffer data)` |
+    | `static Response.SmartContractDataWrapper` | `parseFrom(java.nio.ByteBuffer data, com.google.protobuf.ExtensionRegistryLite extensionRegistry)` |
+    | `static Response.SmartContractDataWrapper` | `parseFrom(com.google.protobuf.ByteString data)` |
+    | `static Response.SmartContractDataWrapper` | `parseFrom(com.google.protobuf.ByteString data, com.google.protobuf.ExtensionRegistryLite extensionRegistry)` |
+    | `static Response.SmartContractDataWrapper` | `parseFrom(com.google.protobuf.CodedInputStream input)` |
+    | `static Response.SmartContractDataWrapper` | `parseFrom(com.google.protobuf.CodedInputStream input, com.google.protobuf.ExtensionRegistryLite extensionRegistry)` |
+    | `static Response.SmartContractDataWrapper` | `parseFrom(java.io.InputStream input)` |
+    | `static Response.SmartContractDataWrapper` | `parseFrom(java.io.InputStream input, com.google.protobuf.ExtensionRegistryLite extensionRegistry)` |
+    | `static com.google.protobuf.Parser<Response.SmartContractDataWrapper>` | `parser()` |
+    | `Response.SmartContractDataWrapper.Builder` | `toBuilder()` |
+    | `void` | `writeTo(com.google.protobuf.CodedOutputStream output)` |
+
+    - ### Methods inherited from class com.google.protobuf.GeneratedMessageV3
+
+      `canUseUnsafe, computeStringSize, computeStringSizeNoTag, emptyBooleanList, emptyDoubleList, emptyFloatList, emptyIntList, emptyList, emptyLongList, getAllFields, getDescriptorForType, getField, getOneofFieldDescriptor, getRepeatedField, getRepeatedFieldCount, getUnknownFields, hasField, hasOneof, internalGetMapField, internalGetMapFieldReflection, isStringEmpty, makeExtensionsImmutable, makeMutableCopy, makeMutableCopy, mergeFromAndMakeImmutableInternal, mutableCopy, mutableCopy, mutableCopy, mutableCopy, mutableCopy, newBooleanList, newBuilderForType, newDoubleList, newFloatList, newIntList, newLongList, parseDelimitedWithIOException, parseDelimitedWithIOException, parseUnknownField, parseUnknownFieldProto3, parseWithIOException, parseWithIOException, parseWithIOException, parseWithIOException, serializeBooleanMapTo, serializeIntegerMapTo, serializeLongMapTo, serializeStringMapTo, writeReplace, writeString, writeStringNoTag`
+    - ### Methods inherited from class com.google.protobuf.AbstractMessage
+
+      `findInitializationErrors, getInitializationErrorString, hashBoolean, hashEnum, hashEnumList, hashFields, hashLong, toString`
+    - ### Methods inherited from class com.google.protobuf.AbstractMessageLite
+
+      `addAll, addAll, checkByteStringIsUtf8, toByteArray, toByteString, writeDelimitedTo, writeTo`
+    - ### Methods inherited from class java.lang.Object
+
+      `clone, finalize, getClass, notify, notifyAll, wait, wait, wait`
+    - ### Methods inherited from interface com.google.protobuf.MessageOrBuilder
+
+      `findInitializationErrors, getAllFields, getDescriptorForType, getField, getInitializationErrorString, getOneofFieldDescriptor, getRepeatedField, getRepeatedFieldCount, getUnknownFields, hasField, hasOneof`
+    - ### Methods inherited from interface com.google.protobuf.MessageLite
+
+      `toByteArray, toByteString, writeDelimitedTo, writeTo`
+
+* + ### Field Detail
+
+    - #### SMART\_CONTRACT\_FIELD\_NUMBER
+
+      ```
+      public static final int SMART_CONTRACT_FIELD_NUMBER
+      ```
+
+      See Also:
+      :   [Constant Field Values](../../../../constant-values.html#org.tron.trident.proto.Response.SmartContractDataWrapper.SMART_CONTRACT_FIELD_NUMBER)
+    - #### RUNTIME\_CODE\_FIELD\_NUMBER
+
+      ```
+      public static final int RUNTIME_CODE_FIELD_NUMBER
+      ```
+
+      See Also:
+      :   [Constant Field Values](../../../../constant-values.html#org.tron.trident.proto.Response.SmartContractDataWrapper.RUNTIME_CODE_FIELD_NUMBER)
+    - #### CONTRACT\_STATE\_FIELD\_NUMBER
+
+      ```
+      public static final int CONTRACT_STATE_FIELD_NUMBER
+      ```
+
+      See Also:
+      :   [Constant Field Values](../../../../constant-values.html#org.tron.trident.proto.Response.SmartContractDataWrapper.CONTRACT_STATE_FIELD_NUMBER)
+  + ### Method Detail
+
+    - #### newInstance
+
+      ```
+      protected java.lang.Object newInstance(com.google.protobuf.GeneratedMessageV3.UnusedPrivateParameter unused)
+      ```
+
+      Overrides:
+      :   `newInstance` in class `com.google.protobuf.GeneratedMessageV3`
+    - #### getDescriptor
+
+      ```
+      public static final com.google.protobuf.Descriptors.Descriptor getDescriptor()
+      ```
+    - #### internalGetFieldAccessorTable
+
+      ```
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable internalGetFieldAccessorTable()
+      ```
+
+      Specified by:
+      :   `internalGetFieldAccessorTable` in class `com.google.protobuf.GeneratedMessageV3`
+    - #### hasSmartContract
+
+      ```
+      public boolean hasSmartContract()
+      ```
+
+      `.protocol.SmartContract smart_contract = 1;`
+
+      Specified by:
+      :   `hasSmartContract` in interface `Response.SmartContractDataWrapperOrBuilder`
+
+      Returns:
+      :   Whether the smartContract field is set.
+    - #### getSmartContract
+
+      ```
+      public Common.SmartContract getSmartContract()
+      ```
+
+      `.protocol.SmartContract smart_contract = 1;`
+
+      Specified by:
+      :   `getSmartContract` in interface `Response.SmartContractDataWrapperOrBuilder`
+
+      Returns:
+      :   The smartContract.
+    - #### getSmartContractOrBuilder
+
+      ```
+      public Common.SmartContractOrBuilder getSmartContractOrBuilder()
+      ```
+
+      `.protocol.SmartContract smart_contract = 1;`
+
+      Specified by:
+      :   `getSmartContractOrBuilder` in interface `Response.SmartContractDataWrapperOrBuilder`
+    - #### getRuntimeCode
+
+      ```
+      public com.google.protobuf.ByteString getRuntimeCode()
+      ```
+
+      `bytes runtime_code = 2;`
+
+      Specified by:
+      :   `getRuntimeCode` in interface `Response.SmartContractDataWrapperOrBuilder`
+
+      Returns:
+      :   The runtimeCode.
+    - #### hasContractState
+
+      ```
+      public boolean hasContractState()
+      ```
+
+      `.protocol.ContractState contract_state = 3;`
+
+      Specified by:
+      :   `hasContractState` in interface `Response.SmartContractDataWrapperOrBuilder`
+
+      Returns:
+      :   Whether the contractState field is set.
+    - #### getContractState
+
+      ```
+      public Contract.ContractState getContractState()
+      ```
+
+      `.protocol.ContractState contract_state = 3;`
+
+      Specified by:
+      :   `getContractState` in interface `Response.SmartContractDataWrapperOrBuilder`
+
+      Returns:
+      :   The contractState.
+    - #### getContractStateOrBuilder
+
+      ```
+      public Contract.ContractStateOrBuilder getContractStateOrBuilder()
+      ```
+
+      `.protocol.ContractState contract_state = 3;`
+
+      Specified by:
+      :   `getContractStateOrBuilder` in interface `Response.SmartContractDataWrapperOrBuilder`
+    - #### isInitialized
+
+      ```
+      public final boolean isInitialized()
+      ```
+
+      Specified by:
+      :   `isInitialized` in interface `com.google.protobuf.MessageLiteOrBuilder`
+
+      Overrides:
+      :   `isInitialized` in class `com.google.protobuf.GeneratedMessageV3`
+    - #### writeTo
+
+      ```
+      public void writeTo(com.google.protobuf.CodedOutputStream output)
+                   throws java.io.IOException
+      ```
+
+      Specified by:
+      :   `writeTo` in interface `com.google.protobuf.MessageLite`
+
+      Overrides:
+      :   `writeTo` in class `com.google.protobuf.GeneratedMessageV3`
+
+      Throws:
+      :   `java.io.IOException`
+    - #### getSerializedSize
+
+      ```
+      public int getSerializedSize()
+      ```
+
+      Specified by:
+      :   `getSerializedSize` in interface `com.google.protobuf.MessageLite`
+
+      Overrides:
+      :   `getSerializedSize` in class `com.google.protobuf.GeneratedMessageV3`
+    - #### equals
+
+      ```
+      public boolean equals(java.lang.Object obj)
+      ```
+
+      Specified by:
+      :   `equals` in interface `com.google.protobuf.Message`
+
+      Overrides:
+      :   `equals` in class `com.google.protobuf.AbstractMessage`
+    - #### hashCode
+
+      ```
+      public int hashCode()
+      ```
+
+      Specified by:
+      :   `hashCode` in interface `com.google.protobuf.Message`
+
+      Overrides:
+      :   `hashCode` in class `com.google.protobuf.AbstractMessage`
+    - #### parseFrom
+
+      ```
+      public static Response.SmartContractDataWrapper parseFrom(java.nio.ByteBuffer data)
+                                                         throws com.google.protobuf.InvalidProtocolBufferException
+      ```
+
+      Throws:
+      :   `com.google.protobuf.InvalidProtocolBufferException`
+    - #### parseFrom
+
+      ```
+      public static Response.SmartContractDataWrapper parseFrom(java.nio.ByteBuffer data,
+                                                                com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+                                                         throws com.google.protobuf.InvalidProtocolBufferException
+      ```
+
+      Throws:
+      :   `com.google.protobuf.InvalidProtocolBufferException`
+    - #### parseFrom
+
+      ```
+      public static Response.SmartContractDataWrapper parseFrom(com.google.protobuf.ByteString data)
+                                                         throws com.google.protobuf.InvalidProtocolBufferException
+      ```
+
+      Throws:
+      :   `com.google.protobuf.InvalidProtocolBufferException`
+    - #### parseFrom
+
+      ```
+      public static Response.SmartContractDataWrapper parseFrom(com.google.protobuf.ByteString data,
+                                                                com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+                                                         throws com.google.protobuf.InvalidProtocolBufferException
+      ```
+
+      Throws:
+      :   `com.google.protobuf.InvalidProtocolBufferException`
+    - #### parseFrom
+
+      ```
+      public static Response.SmartContractDataWrapper parseFrom(byte[] data)
+                                                         throws com.google.protobuf.InvalidProtocolBufferException
+      ```
+
+      Throws:
+      :   `com.google.protobuf.InvalidProtocolBufferException`
+    - #### parseFrom
+
+      ```
+      public static Response.SmartContractDataWrapper parseFrom(byte[] data,
+                                                                com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+                                                         throws com.google.protobuf.InvalidProtocolBufferException
+      ```
+
+      Throws:
+      :   `com.google.protobuf.InvalidProtocolBufferException`
+    - #### parseFrom
+
+      ```
+      public static Response.SmartContractDataWrapper parseFrom(java.io.InputStream input)
+                                                         throws java.io.IOException
+      ```
+
+      Throws:
+      :   `java.io.IOException`
+    - #### parseFrom
+
+      ```
+      public static Response.SmartContractDataWrapper parseFrom(java.io.InputStream input,
+                                                                com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+                                                         throws java.io.IOException
+      ```
+
+      Throws:
+      :   `java.io.IOException`
+    - #### parseDelimitedFrom
+
+      ```
+      public static Response.SmartContractDataWrapper parseDelimitedFrom(java.io.InputStream input)
+                                                                  throws java.io.IOException
+      ```
+
+      Throws:
+      :   `java.io.IOException`
+    - #### parseDelimitedFrom
+
+      ```
+      public static Response.SmartContractDataWrapper parseDelimitedFrom(java.io.InputStream input,
+                                                                         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+                                                                  throws java.io.IOException
+      ```
+
+      Throws:
+      :   `java.io.IOException`
+    - #### parseFrom
+
+      ```
+      public static Response.SmartContractDataWrapper parseFrom(com.google.protobuf.CodedInputStream input)
+                                                         throws java.io.IOException
+      ```
+
+      Throws:
+      :   `java.io.IOException`
+    - #### parseFrom
+
+      ```
+      public static Response.SmartContractDataWrapper parseFrom(com.google.protobuf.CodedInputStream input,
+                                                                com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+                                                         throws java.io.IOException
+      ```
+
+      Throws:
+      :   `java.io.IOException`
+    - #### newBuilderForType
+
+      ```
+      public Response.SmartContractDataWrapper.Builder newBuilderForType()
+      ```
+
+      Specified by:
+      :   `newBuilderForType` in interface `com.google.protobuf.Message`
+
+      Specified by:
+      :   `newBuilderForType` in interface `com.google.protobuf.MessageLite`
+    - #### newBuilder
+
+      ```
+      public static Response.SmartContractDataWrapper.Builder newBuilder()
+      ```
+    - #### newBuilder
+
+      ```
+      public static Response.SmartContractDataWrapper.Builder newBuilder(Response.SmartContractDataWrapper prototype)
+      ```
+    - #### toBuilder
+
+      ```
+      public Response.SmartContractDataWrapper.Builder toBuilder()
+      ```
+
+      Specified by:
+      :   `toBuilder` in interface `com.google.protobuf.Message`
+
+      Specified by:
+      :   `toBuilder` in interface `com.google.protobuf.MessageLite`
+    - #### newBuilderForType
+
+      ```
+      protected Response.SmartContractDataWrapper.Builder newBuilderForType(com.google.protobuf.GeneratedMessageV3.BuilderParent parent)
+      ```
+
+      Specified by:
+      :   `newBuilderForType` in class `com.google.protobuf.GeneratedMessageV3`
+    - #### getDefaultInstance
+
+      ```
+      public static Response.SmartContractDataWrapper getDefaultInstance()
+      ```
+    - #### parser
+
+      ```
+      public static com.google.protobuf.Parser<Response.SmartContractDataWrapper> parser()
+      ```
+    - #### getParserForType
+
+      ```
+      public com.google.protobuf.Parser<Response.SmartContractDataWrapper> getParserForType()
+      ```
+
+      Specified by:
+      :   `getParserForType` in interface `com.google.protobuf.Message`
+
+      Specified by:
+      :   `getParserForType` in interface `com.google.protobuf.MessageLite`
+
+      Overrides:
+      :   `getParserForType` in class `com.google.protobuf.GeneratedMessageV3`
+    - #### getDefaultInstanceForType
+
+      ```
+      public Response.SmartContractDataWrapper getDefaultInstanceForType()
+      ```
+
+      Specified by:
+      :   `getDefaultInstanceForType` in interface `com.google.protobuf.MessageLiteOrBuilder`
+
+      Specified by:
+      :   `getDefaultInstanceForType` in interface `com.google.protobuf.MessageOrBuilder`

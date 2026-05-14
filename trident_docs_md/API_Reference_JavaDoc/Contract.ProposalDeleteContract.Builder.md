@@ -1,0 +1,369 @@
+
+
+org.tron.trident.proto
+
+## Class Contract.ProposalDeleteContract.Builder
+
+* java.lang.Object
+* + com.google.protobuf.AbstractMessageLite.Builder
+  + - com.google.protobuf.AbstractMessage.Builder<BuilderT>
+    - * com.google.protobuf.GeneratedMessageV3.Builder<[Contract.ProposalDeleteContract.Builder](../../../../org/tron/trident/proto/Contract.ProposalDeleteContract.Builder.html "class in org.tron.trident.proto")>
+      * + org.tron.trident.proto.Contract.ProposalDeleteContract.Builder
+
+* All Implemented Interfaces:
+  :   com.google.protobuf.Message.Builder, com.google.protobuf.MessageLite.Builder, com.google.protobuf.MessageLiteOrBuilder, com.google.protobuf.MessageOrBuilder, java.lang.Cloneable, [Contract.ProposalDeleteContractOrBuilder](../../../../org/tron/trident/proto/Contract.ProposalDeleteContractOrBuilder.html "interface in org.tron.trident.proto")
+
+  Enclosing class:
+  :   [Contract.ProposalDeleteContract](../../../../org/tron/trident/proto/Contract.ProposalDeleteContract.html "class in org.tron.trident.proto")
+
+  ---
+
+    
+
+  ```
+  public static final class Contract.ProposalDeleteContract.Builder
+  extends com.google.protobuf.GeneratedMessageV3.Builder<Contract.ProposalDeleteContract.Builder>
+  implements Contract.ProposalDeleteContractOrBuilder
+  ```
+
+  Protobuf type `protocol.ProposalDeleteContract`
+
+* + ### Method Summary
+
+    All Methods [Static Methods](javascript:show(1);) [Instance Methods](javascript:show(2);) [Concrete Methods](javascript:show(8);)
+
+    | Modifier and Type | Method and Description |
+    | `Contract.ProposalDeleteContract.Builder` | `addRepeatedField(com.google.protobuf.Descriptors.FieldDescriptor field, java.lang.Object value)` |
+    | `Contract.ProposalDeleteContract` | `build()` |
+    | `Contract.ProposalDeleteContract` | `buildPartial()` |
+    | `Contract.ProposalDeleteContract.Builder` | `clear()` |
+    | `Contract.ProposalDeleteContract.Builder` | `clearField(com.google.protobuf.Descriptors.FieldDescriptor field)` |
+    | `Contract.ProposalDeleteContract.Builder` | `clearOneof(com.google.protobuf.Descriptors.OneofDescriptor oneof)` |
+    | `Contract.ProposalDeleteContract.Builder` | `clearOwnerAddress()` `bytes owner_address = 1;` |
+    | `Contract.ProposalDeleteContract.Builder` | `clearProposalId()` `int64 proposal_id = 2;` |
+    | `Contract.ProposalDeleteContract.Builder` | `clone()` |
+    | `Contract.ProposalDeleteContract` | `getDefaultInstanceForType()` |
+    | `static com.google.protobuf.Descriptors.Descriptor` | `getDescriptor()` |
+    | `com.google.protobuf.Descriptors.Descriptor` | `getDescriptorForType()` |
+    | `com.google.protobuf.ByteString` | `getOwnerAddress()` `bytes owner_address = 1;` |
+    | `long` | `getProposalId()` `int64 proposal_id = 2;` |
+    | `protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable` | `internalGetFieldAccessorTable()` |
+    | `boolean` | `isInitialized()` |
+    | `Contract.ProposalDeleteContract.Builder` | `mergeFrom(com.google.protobuf.CodedInputStream input, com.google.protobuf.ExtensionRegistryLite extensionRegistry)` |
+    | `Contract.ProposalDeleteContract.Builder` | `mergeFrom(Contract.ProposalDeleteContract other)` |
+    | `Contract.ProposalDeleteContract.Builder` | `mergeFrom(com.google.protobuf.Message other)` |
+    | `Contract.ProposalDeleteContract.Builder` | `mergeUnknownFields(com.google.protobuf.UnknownFieldSet unknownFields)` |
+    | `Contract.ProposalDeleteContract.Builder` | `setField(com.google.protobuf.Descriptors.FieldDescriptor field, java.lang.Object value)` |
+    | `Contract.ProposalDeleteContract.Builder` | `setOwnerAddress(com.google.protobuf.ByteString value)` `bytes owner_address = 1;` |
+    | `Contract.ProposalDeleteContract.Builder` | `setProposalId(long value)` `int64 proposal_id = 2;` |
+    | `Contract.ProposalDeleteContract.Builder` | `setRepeatedField(com.google.protobuf.Descriptors.FieldDescriptor field, int index, java.lang.Object value)` |
+    | `Contract.ProposalDeleteContract.Builder` | `setUnknownFields(com.google.protobuf.UnknownFieldSet unknownFields)` |
+
+    - ### Methods inherited from class com.google.protobuf.GeneratedMessageV3.Builder
+
+      `getAllFields, getField, getFieldBuilder, getOneofFieldDescriptor, getParentForChildren, getRepeatedField, getRepeatedFieldBuilder, getRepeatedFieldCount, getUnknownFields, getUnknownFieldSetBuilder, hasField, hasOneof, internalGetMapField, internalGetMapFieldReflection, internalGetMutableMapField, internalGetMutableMapFieldReflection, isClean, markClean, mergeUnknownLengthDelimitedField, mergeUnknownVarintField, newBuilderForField, onBuilt, onChanged, parseUnknownField, setUnknownFieldSetBuilder, setUnknownFieldsProto3`
+    - ### Methods inherited from class com.google.protobuf.AbstractMessage.Builder
+
+      `findInitializationErrors, getInitializationErrorString, internalMergeFrom, mergeFrom, mergeFrom, mergeFrom, mergeFrom, mergeFrom, mergeFrom, mergeFrom, mergeFrom, mergeFrom, newUninitializedMessageException, toString`
+    - ### Methods inherited from class com.google.protobuf.AbstractMessageLite.Builder
+
+      `addAll, addAll, mergeDelimitedFrom, mergeDelimitedFrom, newUninitializedMessageException`
+    - ### Methods inherited from class java.lang.Object
+
+      `equals, finalize, getClass, hashCode, notify, notifyAll, wait, wait, wait`
+    - ### Methods inherited from interface com.google.protobuf.MessageOrBuilder
+
+      `findInitializationErrors, getAllFields, getField, getInitializationErrorString, getOneofFieldDescriptor, getRepeatedField, getRepeatedFieldCount, getUnknownFields, hasField, hasOneof`
+    - ### Methods inherited from interface com.google.protobuf.Message.Builder
+
+      `mergeDelimitedFrom, mergeDelimitedFrom`
+
+* + ### Method Detail
+
+    - #### getDescriptor
+
+      ```
+      public static final com.google.protobuf.Descriptors.Descriptor getDescriptor()
+      ```
+    - #### internalGetFieldAccessorTable
+
+      ```
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable internalGetFieldAccessorTable()
+      ```
+
+      Specified by:
+      :   `internalGetFieldAccessorTable` in class `com.google.protobuf.GeneratedMessageV3.Builder<Contract.ProposalDeleteContract.Builder>`
+    - #### clear
+
+      ```
+      public Contract.ProposalDeleteContract.Builder clear()
+      ```
+
+      Specified by:
+      :   `clear` in interface `com.google.protobuf.Message.Builder`
+
+      Specified by:
+      :   `clear` in interface `com.google.protobuf.MessageLite.Builder`
+
+      Overrides:
+      :   `clear` in class `com.google.protobuf.GeneratedMessageV3.Builder<Contract.ProposalDeleteContract.Builder>`
+    - #### getDescriptorForType
+
+      ```
+      public com.google.protobuf.Descriptors.Descriptor getDescriptorForType()
+      ```
+
+      Specified by:
+      :   `getDescriptorForType` in interface `com.google.protobuf.Message.Builder`
+
+      Specified by:
+      :   `getDescriptorForType` in interface `com.google.protobuf.MessageOrBuilder`
+
+      Overrides:
+      :   `getDescriptorForType` in class `com.google.protobuf.GeneratedMessageV3.Builder<Contract.ProposalDeleteContract.Builder>`
+    - #### getDefaultInstanceForType
+
+      ```
+      public Contract.ProposalDeleteContract getDefaultInstanceForType()
+      ```
+
+      Specified by:
+      :   `getDefaultInstanceForType` in interface `com.google.protobuf.MessageLiteOrBuilder`
+
+      Specified by:
+      :   `getDefaultInstanceForType` in interface `com.google.protobuf.MessageOrBuilder`
+    - #### build
+
+      ```
+      public Contract.ProposalDeleteContract build()
+      ```
+
+      Specified by:
+      :   `build` in interface `com.google.protobuf.Message.Builder`
+
+      Specified by:
+      :   `build` in interface `com.google.protobuf.MessageLite.Builder`
+    - #### buildPartial
+
+      ```
+      public Contract.ProposalDeleteContract buildPartial()
+      ```
+
+      Specified by:
+      :   `buildPartial` in interface `com.google.protobuf.Message.Builder`
+
+      Specified by:
+      :   `buildPartial` in interface `com.google.protobuf.MessageLite.Builder`
+    - #### clone
+
+      ```
+      public Contract.ProposalDeleteContract.Builder clone()
+      ```
+
+      Specified by:
+      :   `clone` in interface `com.google.protobuf.Message.Builder`
+
+      Specified by:
+      :   `clone` in interface `com.google.protobuf.MessageLite.Builder`
+
+      Overrides:
+      :   `clone` in class `com.google.protobuf.GeneratedMessageV3.Builder<Contract.ProposalDeleteContract.Builder>`
+    - #### setField
+
+      ```
+      public Contract.ProposalDeleteContract.Builder setField(com.google.protobuf.Descriptors.FieldDescriptor field,
+                                                              java.lang.Object value)
+      ```
+
+      Specified by:
+      :   `setField` in interface `com.google.protobuf.Message.Builder`
+
+      Overrides:
+      :   `setField` in class `com.google.protobuf.GeneratedMessageV3.Builder<Contract.ProposalDeleteContract.Builder>`
+    - #### clearField
+
+      ```
+      public Contract.ProposalDeleteContract.Builder clearField(com.google.protobuf.Descriptors.FieldDescriptor field)
+      ```
+
+      Specified by:
+      :   `clearField` in interface `com.google.protobuf.Message.Builder`
+
+      Overrides:
+      :   `clearField` in class `com.google.protobuf.GeneratedMessageV3.Builder<Contract.ProposalDeleteContract.Builder>`
+    - #### clearOneof
+
+      ```
+      public Contract.ProposalDeleteContract.Builder clearOneof(com.google.protobuf.Descriptors.OneofDescriptor oneof)
+      ```
+
+      Specified by:
+      :   `clearOneof` in interface `com.google.protobuf.Message.Builder`
+
+      Overrides:
+      :   `clearOneof` in class `com.google.protobuf.GeneratedMessageV3.Builder<Contract.ProposalDeleteContract.Builder>`
+    - #### setRepeatedField
+
+      ```
+      public Contract.ProposalDeleteContract.Builder setRepeatedField(com.google.protobuf.Descriptors.FieldDescriptor field,
+                                                                      int index,
+                                                                      java.lang.Object value)
+      ```
+
+      Specified by:
+      :   `setRepeatedField` in interface `com.google.protobuf.Message.Builder`
+
+      Overrides:
+      :   `setRepeatedField` in class `com.google.protobuf.GeneratedMessageV3.Builder<Contract.ProposalDeleteContract.Builder>`
+    - #### addRepeatedField
+
+      ```
+      public Contract.ProposalDeleteContract.Builder addRepeatedField(com.google.protobuf.Descriptors.FieldDescriptor field,
+                                                                      java.lang.Object value)
+      ```
+
+      Specified by:
+      :   `addRepeatedField` in interface `com.google.protobuf.Message.Builder`
+
+      Overrides:
+      :   `addRepeatedField` in class `com.google.protobuf.GeneratedMessageV3.Builder<Contract.ProposalDeleteContract.Builder>`
+    - #### mergeFrom
+
+      ```
+      public Contract.ProposalDeleteContract.Builder mergeFrom(com.google.protobuf.Message other)
+      ```
+
+      Specified by:
+      :   `mergeFrom` in interface `com.google.protobuf.Message.Builder`
+
+      Overrides:
+      :   `mergeFrom` in class `com.google.protobuf.AbstractMessage.Builder<Contract.ProposalDeleteContract.Builder>`
+    - #### mergeFrom
+
+      ```
+      public Contract.ProposalDeleteContract.Builder mergeFrom(Contract.ProposalDeleteContract other)
+      ```
+    - #### isInitialized
+
+      ```
+      public final boolean isInitialized()
+      ```
+
+      Specified by:
+      :   `isInitialized` in interface `com.google.protobuf.MessageLiteOrBuilder`
+
+      Overrides:
+      :   `isInitialized` in class `com.google.protobuf.GeneratedMessageV3.Builder<Contract.ProposalDeleteContract.Builder>`
+    - #### mergeFrom
+
+      ```
+      public Contract.ProposalDeleteContract.Builder mergeFrom(com.google.protobuf.CodedInputStream input,
+                                                               com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+                                                        throws java.io.IOException
+      ```
+
+      Specified by:
+      :   `mergeFrom` in interface `com.google.protobuf.Message.Builder`
+
+      Specified by:
+      :   `mergeFrom` in interface `com.google.protobuf.MessageLite.Builder`
+
+      Overrides:
+      :   `mergeFrom` in class `com.google.protobuf.AbstractMessage.Builder<Contract.ProposalDeleteContract.Builder>`
+
+      Throws:
+      :   `java.io.IOException`
+    - #### getOwnerAddress
+
+      ```
+      public com.google.protobuf.ByteString getOwnerAddress()
+      ```
+
+      `bytes owner_address = 1;`
+
+      Specified by:
+      :   `getOwnerAddress` in interface `Contract.ProposalDeleteContractOrBuilder`
+
+      Returns:
+      :   The ownerAddress.
+    - #### setOwnerAddress
+
+      ```
+      public Contract.ProposalDeleteContract.Builder setOwnerAddress(com.google.protobuf.ByteString value)
+      ```
+
+      `bytes owner_address = 1;`
+
+      Parameters:
+      :   `value` - The ownerAddress to set.
+
+      Returns:
+      :   This builder for chaining.
+    - #### clearOwnerAddress
+
+      ```
+      public Contract.ProposalDeleteContract.Builder clearOwnerAddress()
+      ```
+
+      `bytes owner_address = 1;`
+
+      Returns:
+      :   This builder for chaining.
+    - #### getProposalId
+
+      ```
+      public long getProposalId()
+      ```
+
+      `int64 proposal_id = 2;`
+
+      Specified by:
+      :   `getProposalId` in interface `Contract.ProposalDeleteContractOrBuilder`
+
+      Returns:
+      :   The proposalId.
+    - #### setProposalId
+
+      ```
+      public Contract.ProposalDeleteContract.Builder setProposalId(long value)
+      ```
+
+      `int64 proposal_id = 2;`
+
+      Parameters:
+      :   `value` - The proposalId to set.
+
+      Returns:
+      :   This builder for chaining.
+    - #### clearProposalId
+
+      ```
+      public Contract.ProposalDeleteContract.Builder clearProposalId()
+      ```
+
+      `int64 proposal_id = 2;`
+
+      Returns:
+      :   This builder for chaining.
+    - #### setUnknownFields
+
+      ```
+      public final Contract.ProposalDeleteContract.Builder setUnknownFields(com.google.protobuf.UnknownFieldSet unknownFields)
+      ```
+
+      Specified by:
+      :   `setUnknownFields` in interface `com.google.protobuf.Message.Builder`
+
+      Overrides:
+      :   `setUnknownFields` in class `com.google.protobuf.GeneratedMessageV3.Builder<Contract.ProposalDeleteContract.Builder>`
+    - #### mergeUnknownFields
+
+      ```
+      public final Contract.ProposalDeleteContract.Builder mergeUnknownFields(com.google.protobuf.UnknownFieldSet unknownFields)
+      ```
+
+      Specified by:
+      :   `mergeUnknownFields` in interface `com.google.protobuf.Message.Builder`
+
+      Overrides:
+      :   `mergeUnknownFields` in class `com.google.protobuf.GeneratedMessageV3.Builder<Contract.ProposalDeleteContract.Builder>`
